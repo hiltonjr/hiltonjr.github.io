@@ -1,0 +1,82 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(47, 88, 28);
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    margin-left: 5rem;
+}
+
+header .informations {
+    width: 40%;
+
+}
+
+header .informations a {
+    margin-bottom: 0.5rem;
+    float: right;
+    margin-right: 5rem;
+
+    color: white;    
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-size: 13px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.compras{
+    display: flex;
+}
+
+.compras .img {
+    width: 40%;
+    height: 100vh;
+
+    margin-left: 30px;
+}
+
+.compras .img img {
+    width: 20rem;
+    height: 20rem;
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.informações {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.informações p {
+    font-size: 20px;
+}
+
+
+.informações input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 80%;
+
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
